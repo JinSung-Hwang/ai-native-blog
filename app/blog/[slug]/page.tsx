@@ -93,12 +93,14 @@ export default async function Blog({ params }) {
           {formatDate(post.metadata.publishedAt)}
         </p>
       </div>
+      <div>
       <article className="prose">
         <CustomMDX source={post.content} />
       </article>
+      </div>
       <AuthorProfile
         author={{
-          name: 'John Doe',
+          name: 'John Doe sir',
           bio: 'A passionate writer and developer.',
           avatarUrl: '/images/avatar.png',
         }}
