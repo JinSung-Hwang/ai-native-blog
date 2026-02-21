@@ -22,6 +22,7 @@ export async function generateMetadata({ params }) {
   let {
     title,
     publishedAt: publishedTime,
+    publishedA1t?: publishedTime,
     summary: description,
     image,
   } = post.metadata
